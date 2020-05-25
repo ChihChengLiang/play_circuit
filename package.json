@@ -8,5 +8,9 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "circom": "0.0.34",
+    "snarkjs": "^0.1.20"
+  }
 }
