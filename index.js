@@ -20,6 +20,8 @@ const main = async () => {
   const inputs = { a: -1, b: 4 }
   const witness = calculateWitness(circuit, inputs)
   console.log(witness)
+  // [ 1n, -4n, -1n, 4n ]
+
   // const _setup = setup(circuit)
   // const { publicSignals } = genProof(_setup.vk_proof, witness)
   // console.log(publicSignals)
